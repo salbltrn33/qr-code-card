@@ -1,0 +1,58 @@
+body {
+    background-color: #E5EBFB;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+
+#card {
+    height: 489px;
+    width: 318px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+#qr-cont {
+    height: 282px;
+    width: 287px;
+    background-image: url(./images/image-qr-code.png);
+    background-size: cover;
+    margin: 15.5px;
+    border-radius: 8px;
+}
+
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #2E4053;
+}
+
+#content{
+    text-align: center;
+    width: 225px;
+    margin: 0 auto;
+}
+
+#content p{
+font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 13px;
+  color: #99A3A4;
+}
+
+.attribution{
+    font-size: 11px; 
+    text-align: center;
+}
+
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
